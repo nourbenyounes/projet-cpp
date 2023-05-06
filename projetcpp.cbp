@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="projetcpp" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/projetcpp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/projetcpp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/AMBULANCIER.h" />
+		<Unit filename="include/Appel.h" />
+		<Unit filename="include/CHAUFFEUR.h" />
+		<Unit filename="include/Centre_Ambulance.h" />
+		<Unit filename="include/EMPLOYE.h" />
+		<Unit filename="include/Hopital.h" />
+		<Unit filename="include/ambulance.h" />
+		<Unit filename="include/equipement.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/AMBULANCIER.cpp" />
+		<Unit filename="src/Appel.cpp" />
+		<Unit filename="src/CHAUFFEUR.cpp" />
+		<Unit filename="src/Centre_Ambulance.cpp" />
+		<Unit filename="src/EMPLOYE.cpp" />
+		<Unit filename="src/Hopital.cpp" />
+		<Unit filename="src/ambulance.cpp" />
+		<Unit filename="src/equipement.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

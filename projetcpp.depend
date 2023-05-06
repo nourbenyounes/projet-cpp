@@ -1,0 +1,108 @@
+# depslib dependency file v1.0
+1683053575 source:c:\users\nour2\onedrive\bureau\c++ tp\projetcpp\main.cpp
+	<iostream>
+	<map>
+	<vector>
+	<string>
+	<fstream>
+	<iomanip>
+	"EMPLOYE.h"
+	"AMBULANCIER.h"
+	"CHAUFFEUR.h"
+	"Hopital.h"
+	"equipement.h"
+	"ambulance.h"
+	"Centre_Ambulance.h"
+	"Appel.h"
+
+1683044842 source:c:\users\nour2\onedrive\bureau\c++ tp\projetcpp\src\equipement.cpp
+	"equipement.h"
+	<string>
+	<iostream>
+
+1683038943 c:\users\nour2\onedrive\bureau\c++ tp\projetcpp\include\equipement.h
+	<string>
+	<iostream>
+	<iomanip>
+	<fstream>
+
+1683044552 source:c:\users\nour2\onedrive\bureau\c++ tp\projetcpp\src\ambulance.cpp
+	"ambulance.h"
+	<string>
+	<iostream>
+	<vector>
+	<CHAUFFEUR.h>
+	<AMBULANCIER.h>
+	<iomanip>
+
+1683041301 c:\users\nour2\onedrive\bureau\c++ tp\projetcpp\include\ambulance.h
+	<string>
+	<iostream>
+	<vector>
+	<fstream>
+	"EMPLOYE.h"
+	<equipement.h>
+
+1683044842 source:c:\users\nour2\onedrive\bureau\c++ tp\projetcpp\src\ambulancier.cpp
+	"AMBULANCIER.h"
+
+1683038319 c:\users\nour2\onedrive\bureau\c++ tp\projetcpp\include\ambulancier.h
+	<EMPLOYE.h>
+	<vector>
+	<iomanip>
+	<fstream>
+
+1682964649 c:\users\nour2\onedrive\bureau\c++ tp\projetcpp\include\employe.h
+	<iostream>
+	<vector>
+	"string"
+	<iomanip>
+
+1683038943 source:c:\users\nour2\onedrive\bureau\c++ tp\projetcpp\src\chauffeur.cpp
+	"CHAUFFEUR.h"
+
+1683038943 c:\users\nour2\onedrive\bureau\c++ tp\projetcpp\include\chauffeur.h
+	<EMPLOYE.h>
+	<iomanip>
+	<fstream>
+
+1682964649 source:c:\users\nour2\onedrive\bureau\c++ tp\projetcpp\src\employe.cpp
+	"EMPLOYE.h"
+
+1683044842 source:c:\users\nour2\onedrive\bureau\c++ tp\projetcpp\src\appel.cpp
+	"Appel.h"
+
+1683038943 c:\users\nour2\onedrive\bureau\c++ tp\projetcpp\include\appel.h
+	<string>
+	<iostream>
+	<iomanip>
+	<fstream>
+
+1683044842 source:c:\users\nour2\onedrive\bureau\c++ tp\projetcpp\src\hopital.cpp
+	"Hopital.h"
+
+1683038943 c:\users\nour2\onedrive\bureau\c++ tp\projetcpp\include\hopital.h
+	<string>
+	<iostream>
+	<iomanip>
+	<fstream>
+
+1683051503 source:c:\users\nour2\onedrive\bureau\c++ tp\projetcpp\src\centre_ambulance.cpp
+	"Centre_Ambulance.h"
+
+1683051069 c:\users\nour2\onedrive\bureau\c++ tp\projetcpp\include\centre_ambulance.h
+	<string>
+	<iostream>
+	<vector>
+	<ambulance.h>
+	"EMPLOYE.h"
+	<Appel.h>
+	<equipement.h>
+	<Hopital.h>
+	<AMBULANCIER.h>
+	<CHAUFFEUR.h>
+	<list>
+	<algorithm>
+	<iomanip>
+	<map>
+
